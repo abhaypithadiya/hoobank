@@ -1,4 +1,4 @@
-import { Hero, Navbar } from "@/components";
+import { Hero, Navbar, Stats } from "@/components";
 
 export default function Home() {
   return (
@@ -16,6 +16,13 @@ export default function Home() {
           <Hero/>
         </div>
       </div>
+
+      <div className="bg-primary flexStart paddingX">
+        <div className="boxWidth">
+            <Stats/>
+        </div>
+      </div>
+
     </>
   );
 }
