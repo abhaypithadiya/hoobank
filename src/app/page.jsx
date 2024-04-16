@@ -1,4 +1,4 @@
-import { Business, Hero, Navbar, Stats } from "@/components";
+import { Billing, Business, Hero, Navbar, Stats } from "@/components";
 
 export default function Home() {
   return (
@@ -21,6 +21,7 @@ export default function Home() {
         <div className="boxWidth">
             <Stats/>
             <Business/>
+            <Billing/>
         </div>
       </div>
 
