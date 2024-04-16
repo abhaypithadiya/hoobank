@@ -1,4 +1,4 @@
-import { Hero, Navbar, Stats } from "@/components";
+import { Business, Hero, Navbar, Stats } from "@/components";
 
 export default function Home() {
   return (
@@ -20,6 +20,7 @@ export default function Home() {
       <div className="bg-primary flexStart paddingX">
         <div className="boxWidth">
             <Stats/>
+            <Business/>
         </div>
       </div>
 

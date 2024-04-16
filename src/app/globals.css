@@ -178,3 +178,23 @@
 .marginY {
   @apply sm:my-16 my-6
 }
+
+.section {
+  @apply flex md:flex-row flex-col sm:py-16 py-6
+}
+
+.sectionReverse {
+  @apply flex md:flex-row flex-col-reverse sm:py-16 py-6
+}
+
+.sectionImgReverse {
+  @apply flex-1 flex md:mr-10 mr-0 md:mt-0 mt-10 relative flexCenter
+}
+
+.sectionImg{
+  @apply flex-1 flex flexCenter md:ml-10 ml-0 md:mt-0 mt-10 relative
+}
+
+.sectionInfo {
+  @apply flex-1 flexStart flex-col
+}
