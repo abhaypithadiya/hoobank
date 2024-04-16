@@ -7,6 +7,7 @@ import Billing from "./Billing";
 import CardDeal from "./CardDeal";
 import Testimonials from "./Testimonials";
 import FeedbackCard from "./FeedbackCard";
+import Clients from "./Clients";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   CardDeal,
   Testimonials,
   FeedbackCard,
+  Clients,
 };
