@@ -1,4 +1,4 @@
-import { Billing, Business, Hero, Navbar, Stats } from "@/components";
+import { Billing, Business, Hero, Navbar, Stats, CardDeal } from "@/components";
 
 export default function Home() {
   return (
@@ -22,6 +22,7 @@ export default function Home() {
             <Stats/>
             <Business/>
             <Billing/>
+            <CardDeal/>
         </div>
       </div>
 
