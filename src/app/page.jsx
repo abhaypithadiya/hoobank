@@ -1,4 +1,4 @@
-import { Billing, Business, Hero, Navbar, Stats, CardDeal, Testimonials, Clients } from "@/components";
+import { Billing, Business, Hero, Navbar, Stats, CardDeal, Testimonials, Clients, CTA, Footer } from "@/components";
 
 export default function Home() {
   return (
@@ -25,6 +25,8 @@ export default function Home() {
             <CardDeal/>
             <Testimonials/>
             <Clients/>
+            <CTA/>
+            <Footer/>
         </div>
       </div>
 
